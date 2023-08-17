@@ -15,20 +15,20 @@ Data Source: https://www.kaggle.com/datasets/natalialimanska/corals-worldwide-di
 
 ## Visualizing the Features
 We first wanted to learn more about the dataset and visualize the data. We looked at high-level statistics of each column, plotted different features to see the distribution, and created a map of all the data points.
-![Alt text](image.png)
+![Alt text](Images/image.png)
 
 ## Clusters
 We then used unsupervised learning to cluster the data to identify patterns. Using the scaled original dataset, we determined the ideal number of clusters was 6. 
 
 This plot shows the scaled salinity values to the scaled January temperature values by cluster.
-![Alt text](image-1.png)
+![Alt text](Images/image-1.png)
 
 This plot shows the scaled salinity values to the scaled June temperature values by cluster.
-![Alt text](image-2.png)
+![Alt text](Images/image-2.png)
 
 We also clustered the data using PCA methodology. We used 2 primary components and 4 clusters for the best results.
-![Alt text](image-3.png)
+![Alt text](Images/image-3.png)
 
 # Supervised Learning Model
 Lastly, we built a supervised learning model with a logistic regression to predict the appearance of coral in certain seas. With this model, we achieved the following results.
-![Alt text](image-4.png)
+![Alt text](Images/image-4.png)
